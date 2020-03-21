@@ -4,7 +4,8 @@
         "device": "*",
         "animation": "*",
         "Color Fading": "github:jwunderl/pxt-color#v0.1.2",
-        "darts": "*"
+        "darts": "*",
+        "color-coded-tilemap": "*"
     },
     "description": "",
     "files": [
