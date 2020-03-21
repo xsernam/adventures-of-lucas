@@ -405,7 +405,7 @@ b 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
 `
 }
 scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.doorOpenEast, function (sprite, location) {
-    lucas.setPosition(105, 700)
+    lucas.setPosition(400, 700)
 })
 scene.onOverlapTile(SpriteKind.Player, myTiles.tile9, function (sprite, location) {
     music.powerUp.play()
@@ -419,7 +419,7 @@ scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.doorClosedSouth, function
     lucas.setPosition(150, 315)
 })
 scene.onOverlapTile(SpriteKind.Player, myTiles.tile13, function (sprite, location) {
-    lucas.setPosition(105, 700)
+    lucas.setPosition(565, 1010)
 })
 scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.buttonPink, function (sprite, location) {
     music.magicWand.play()
@@ -440,7 +440,12 @@ scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.doorOpenSouth, function (
     lucas.setPosition(105, 325)
 })
 scene.onOverlapTile(SpriteKind.Player, myTiles.tile12, function (sprite, location) {
-    lucas.setPosition(105, 700)
+    lucas.setPosition(420, 1010)
+})
+scene.onOverlapTile(SpriteKind.Player, myTiles.tile22, function (sprite, location) {
+    music.baDing.play()
+    tiles.setTileAt(location, sprites.dungeon.floorLight2)
+    info.changeScoreBy(5)
 })
 scene.onOverlapTile(SpriteKind.Player, myTiles.tile5, function (sprite, location) {
     lucas.setPosition(105, 570)
@@ -452,7 +457,10 @@ scene.onOverlapTile(SpriteKind.Player, myTiles.tile20, function (sprite, locatio
     lucas.setPosition(105, 700)
 })
 scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.stairLarge, function (sprite, location) {
-    lucas.setPosition(105, 700)
+    lucas.setPosition(740, 865)
+})
+scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.stairEast, function (sprite, location) {
+    lucas.setPosition(720, 980)
 })
 scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.doorOpenNorth, function (sprite, location) {
     lucas.setPosition(105, 210)
@@ -470,7 +478,7 @@ scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.doorClosedNorth, function
     lucas.setPosition(270, 160)
 })
 scene.onOverlapTile(SpriteKind.Player, myTiles.tile8, function (sprite, location) {
-    lucas.setPosition(105, 700)
+    lucas.setPosition(250, 1130)
 })
 scene.onOverlapTile(SpriteKind.Player, myTiles.tile7, function (sprite, location) {
     music.baDing.play()
@@ -483,7 +491,7 @@ scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.chestClosed, function (sp
     info.changeScoreBy(50)
 })
 scene.onOverlapTile(SpriteKind.Player, myTiles.tile11, function (sprite, location) {
-    lucas.setPosition(105, 700)
+    lucas.setPosition(720, 1010)
 })
 scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.buttonOrange, function (sprite, location) {
     tiles.setTileAt(location, sprites.dungeon.floorLight4)
@@ -496,7 +504,7 @@ scene.onOverlapTile(SpriteKind.Player, myTiles.tile19, function (sprite, locatio
     lucas.setPosition(105, 700)
 })
 scene.onOverlapTile(SpriteKind.Player, myTiles.tile10, function (sprite, location) {
-    lucas.setPosition(105, 700)
+    lucas.setPosition(90, 1000)
 })
 let monster: Sprite = null
 let lucas: Sprite = null
