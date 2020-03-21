@@ -2,7 +2,9 @@
     "name": "adventures of lucas",
     "dependencies": {
         "device": "*",
-        "animation": "*"
+        "animation": "*",
+        "Color Fading": "github:jwunderl/pxt-color#v0.1.2",
+        "darts": "*"
     },
     "description": "",
     "files": [
