@@ -5,7 +5,8 @@
         "animation": "*",
         "Color Fading": "github:jwunderl/pxt-color#v0.1.2",
         "darts": "*",
-        "color-coded-tilemap": "*"
+        "color-coded-tilemap": "*",
+        "corgio": "*"
     },
     "description": "",
     "files": [
